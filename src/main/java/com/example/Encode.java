@@ -29,7 +29,7 @@ public class Encode {
 
 
         String newPhrase = arrayToStringMessage.toString();
-        //System.out.println(newPhrase);
+        System.out.println(newPhrase);
         return newPhrase;
     }
 

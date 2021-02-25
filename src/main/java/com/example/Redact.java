@@ -56,6 +56,7 @@ public class Redact {
         }
         //int phraseLength = arrayToStringWords.length();
         //arrayToStringWords.deleteCharAt(phraseLength);
+        arrayToStringWords.deleteCharAt(arrayToStringWords.length()-1);
         String newPhrase = arrayToStringWords.toString();
         //String originalPhrase = original;
         //String newPhrase = originalPhrase.replace("badWord", "*******");
