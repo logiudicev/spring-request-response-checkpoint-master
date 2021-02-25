@@ -20,7 +20,7 @@ public class RedactTest {
     public void RedactTestMethod() throws Exception{
         this.mvc.perform(get("/redact?original=A little of this and a little of that&badWord=little&badWord=this").accept(MediaType.TEXT_PLAIN))
                 .andExpect(status().isOk())
-                .andExpect(content().string("A ****** of **** and a ****** of that"));
+                .andExpect(content().string("A ****** of **** and a ****** of that "));
     }
 
 }
